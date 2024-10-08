@@ -33,6 +33,7 @@ This folder contains the Python script used to deploy the trained credit scoring
 
     Payload: Send a JSON object containing the transaction data. Example payload:
 ```
+Request looks like:
   ```bash
     {
       "TransactionId": "123456",
@@ -44,6 +45,12 @@ This folder contains the Python script used to deploy the trained credit scoring
     }
 ```
 
+Response: The API will return a JSON object with the predicted credit score and a decision on whether the transaction is risky or not. Example response:
 
+```bash
+{
+  "credit_score": 750,
+  "risk": "Low"
+}
+```
 
-Let me know if you'd like to make any changes or add more details!
