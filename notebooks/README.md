@@ -40,8 +40,3 @@ This folder contains the Jupyter notebooks for tasks 1 through 4 of the Credit S
     - jupyter
  ```
 
-
-Let me know if you'd like to make any changes or add more details!
-
-
-
