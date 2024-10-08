@@ -21,3 +21,27 @@ This folder contains the Jupyter notebooks for tasks 1 through 4 of the Credit S
 1. Navigate to the root directory of the project:
    ```bash
    cd notebooks
+2. Install dependencies (if not done yet):
+   ```bash
+   pip install -r requirements.txt
+3. Launch Jupyter Notebook to explore the tasks:
+   ```bash
+   jupyter notebook
+4. Open each notebook (e.g., Task1.ipynb) to view the code and analysis.
+
+## Requirements
+
+- Ensure you have the following dependencies installed (via requirements.txt):
+```markdown
+    - pandas
+    - numpy
+    - scikit-learn
+    - xgboost
+    - jupyter
+ ```
+
+
+Let me know if you'd like to make any changes or add more details!
+
+
+
